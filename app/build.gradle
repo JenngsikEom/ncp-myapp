@@ -88,3 +88,10 @@ tasks.named('test') {
 application {
     mainClass = 'bitcamp.myapp.App'
 }
+
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
