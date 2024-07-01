@@ -91,14 +91,14 @@ USER jenkins
 도커 이미지 생성
 
 ```
-# docker build -t suhodo/my-jenkins:1.0 .
+# docker build -t jeongsik26/my-jenkins:1.0 .
 ```
 
 도커 이미지를 도커 허브 사이트에 업로드 하기
 
 ```
 # docker login
-# docker push suhodo/my-jenkins:1.0
+# docker push jeongsik26/my-jenkins:1.0
 ```
 
 컨테이너 생성 및 실행하기

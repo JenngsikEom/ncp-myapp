@@ -24,7 +24,7 @@ public class StudentController {
   Logger log = LogManager.getLogger(getClass());
 
   {
-    log.trace("StudentController 생성됨!");
+    log.trace("StudentController 생성!");
   }
 
   @Autowired private StudentService studentService;
