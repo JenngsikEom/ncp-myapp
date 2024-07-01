@@ -87,7 +87,7 @@ function getStudent(e) {
       document.querySelector("#f-email").value = student.email;
       if (student.photo) {
         document.querySelector("#f-photo-origin").href = `https://kr.object.ncloudstorage.com/bitcamp-bucket53-member-photo/${student.photo}`;
-        document.querySelector("#f-photo").src = `https://jafdpuys3518.edge.naverncp.com/qRPqP06Ry7/${student.photo}?type=f&w=80&h=80&faceopt=true&ttype=jpg`;
+        document.querySelector("#f-photo").src = `https://p7jkoyif3599.edge.naverncp.com/FF6e7uZf3m/${student.photo}?type=f&w=80&h=80&faceopt=true&ttype=jpg`;
       } /*else {
         document.querySelector("#f-photo").src = "../images/no-body.webp";
       }*/
